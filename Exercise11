@@ -1,0 +1,13 @@
+//Addition of digits in a number
+
+def function(n):
+    sum=0
+    while(n>0):
+        rem=n%10
+        sum+=rem
+        n//=10
+    return(sum)
+    
+
+n=int(input())
+print(function(n))
