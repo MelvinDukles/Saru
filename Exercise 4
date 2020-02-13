@@ -1,0 +1,13 @@
+// All odd numbers between 0 to n
+
+def function(x):
+    if(x%2!=0):
+        print(x)
+    
+
+
+n=int(input())
+i=1
+while(i<=n):
+    function(i)
+    i+=1
