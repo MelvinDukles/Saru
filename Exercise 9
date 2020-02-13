@@ -1,0 +1,12 @@
+//Count of Digits in a given number
+
+def function(x):
+    count=0
+    while(x!=0):
+        count+=1
+        x=x//10
+    return(count)
+    
+
+n=int(input())
+print(function(n))
