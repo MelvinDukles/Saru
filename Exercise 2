@@ -1,7 +1,12 @@
 // natural number in reverse
 
+def function():
+     print(n)
+    
+
+
 n=int(input())
 i=1
 while(n>=i):
-    print(n)
+    function()
     n-=1
